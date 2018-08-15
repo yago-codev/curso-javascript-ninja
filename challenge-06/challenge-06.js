@@ -5,7 +5,9 @@ Declare uma variável chamada `championship` que receberá o nome do campeonato,
 e imprima o nome desse campeonato no console.
 */
 var championship = 'campeonato de várzea';
-  console.log(championship);
+  console.log(
+    championship
+  );
 
 /*
 Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
@@ -14,7 +16,9 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 var teams = [ 'Tabajara F.C', 'Xurupita F.C', 'Bigode Grosso F.C', 'Coração Cansado F.C', 'Nada Consta F.C']; 
-  console.log( 'Times que estão participando do campeonato: ' + teams );
+  console.log(
+    'Times que estão participando do campeonato: ' + teams 
+  );
 
 /*
 Crie uma função chamada `showTeamPosition` com as seguintes características:
@@ -56,7 +60,9 @@ repetição "while".
 */
 var contadora = 20;
 while( contadora <= 30 ) {
-  console.log( contadora++ );
+  console.log(
+    contadora++
+  );
 }
   
 /*
@@ -74,20 +80,20 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 function convertToHex( recebeStringCor ) {
     switch( recebeStringCor ) {
       case 'red':
-      return 'O hexadecimal para a cor red é #FF0000';
-      break;
+        return 'O hexadecimal para a cor red é #FF0000';
+        break;
       case 'green':
-      return 'O hexadecimal para a cor green é #008000';
-      break;
+        return 'O hexadecimal para a cor green é #008000';
+        break;
       case 'blue':
-      return 'O hexadecimal para a cor blue é #FF0000';
-      break;
+        return 'O hexadecimal para a cor blue é #FF0000';
+        break;
       case 'yellow':
-      return 'O hexadecimal para a cor yellow é #FFFF00';
-      break;
+        return 'O hexadecimal para a cor yellow é #FFFF00';
+        break;
       case 'white':
-      return 'O hexadecimal para a cor white é #000000';
-      break;
+        return 'O hexadecimal para a cor white é #000000';
+        break;
       default: 
         return 'Não temos o equivalente hexadecimal para ' + recebeStringCor + '.';
     }    
