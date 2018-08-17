@@ -29,15 +29,13 @@ console.log('O segundo elemento do segundo array é ' + times[5][1] + '.');
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
-for( var contadora = 0; contadora <= 4; contadora++ ) {
-  console.log('O primeiro array tem ' + times[contadora] + ' itens.');
-}
+console.log('O primeiro array tem ' + times.length + ' itens.');
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
 "O segundo array tem [QUANTIDADE DE ITENS] itens."
 */
-// ?
+console.log('O primeiro array tem ' + times[5].length + ' itens.');
 
 /*
 Utilizando a estrutura de repetição `while`, mostre no console todos os números
